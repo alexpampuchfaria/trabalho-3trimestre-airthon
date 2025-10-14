@@ -8,8 +8,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: s#000000;
+    background-color: #ffffff;
 }
 
 .container {
@@ -56,8 +56,8 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 103, 103);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.781);
     position: fixed;
     width: 100%;
     top: 0;
@@ -72,7 +72,7 @@ header .container {
 }
 
 .logo h1 {
-    color: #4361ee;
+    color: #001571;
     font-size: 28px;
 }
 
@@ -104,7 +104,7 @@ nav ul li a:hover {
 /* Seção Principal */
 .hero {
     padding: 150px 0 100px;
-    background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+    background: linear-gradient(135deg, #fffb81 0%, #3a0ca3 100%);
     color: white;
     margin-top: 80px;
 }
